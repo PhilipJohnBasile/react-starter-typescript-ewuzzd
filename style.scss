@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+
+:root {
+  --bs-dropdown-divider-bg: black;
+}
+
+.table-container {
+  .table {
+    tr {
+      cursor: pointer;
+    }
+
+    tr:hover {
+      background: whitesmoke;
+    }
+
+    tr[data-selected='true'] {
+      background: #a7c7e7;
+    }
+  }
+}
